@@ -30,7 +30,8 @@ const options = {
   useUnifiedTopology: true,
 };
 
-const PORT = process.evn.PORT || 4000;
+//const PORT = process.evn.PORT || 4000;
+const PORT = 4000;
 
 express()
   .use(function (req, res, next) {
